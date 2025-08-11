@@ -19,7 +19,9 @@ import {
   ArrowRight,
   Star,
   Zap,
-  Sparkles
+  Sparkles,
+  Instagram,
+  Twitter
 } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
 import Lottie from 'react-lottie-player';
@@ -816,6 +818,12 @@ const App = () => {
               <a href="mailto:advaith9970@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 transition-colors duration-200 transform hover:scale-110 micro-hover">
                 <Mail className="w-8 h-8" />
               </a>
+              <a href="https://www.instagram.com/advaith.27.12/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 transition-colors duration-200 transform hover:scale-110 micro-hover">
+                <Instagram className="w-8 h-8" />
+              </a>
+              <a href="https://x.com/AdvaithDhavan" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 transition-colors duration-200 transform hover:scale-110 micro-hover">
+                <Twitter className="w-8 h-8" />
+              </a>
             </div>
 
             {/* Hero Lottie Animation */}
@@ -1382,7 +1390,7 @@ const App = () => {
       <footer className={`py-8 px-4 sm:px-6 lg:px-8 footer-interactive ${isDarkMode ? 'bg-gray-900 border-t border-gray-800' : 'bg-white border-t border-gray-200'}`}>
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-600 dark:text-gray-400 micro-hover">
-            © 2025 Advaith Dhavan. Built with React, TypeScript, and Tailwind CSS.
+            © 2025 Advaith Dhavan. All rights reserved.
             
           </p>
           <div className="flex justify-center space-x-6 mt-4">
