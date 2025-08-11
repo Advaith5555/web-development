@@ -1294,8 +1294,11 @@ const App = () => {
               </div>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
+                <form
+                  className="space-y-4"
+                  action="https://formspree.io/f/xjkojzle"
+                  method="POST"
+                >              <div>
                 <input
                   type="text"
                   name="name"
